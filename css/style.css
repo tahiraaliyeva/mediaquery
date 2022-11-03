@@ -1,0 +1,116 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.base {
+    width: 100%;
+    height: auto;
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    background: yellow;
+    float: left;
+    margin-bottom: 5px;
+}
+
+.main {
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+.left {
+    width: 20%;
+    min-height: 460px;
+    background: yellow;
+    float: left;
+    margin: 5px;
+    margin-left: 0;
+
+}
+
+.middle {
+    width: 58%;
+    min-height: 460px;
+    background: yellow;
+    float: left;
+    margin: 5px ;
+}
+
+.right {
+    width: 20%;
+    min-height: 460px;
+    background: yellow;
+    float: left;
+    margin: 5px;
+    margin-right: 0;
+}
+
+.footer {
+    width: 100%;
+    height: 100px;
+    background: yellow;
+    float: left;
+    margin-top: 5px;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 1000px) {
+
+    .left {
+    }
+    
+    .middle {
+        width: 50%;
+    }
+
+    .right {
+    }
+
+}
+
+@media only screen and (max-width: 900px) {
+
+    .left {
+        width: 31%;
+    }
+    
+    .middle {
+        width: 31%;
+    }
+
+    .right {
+        width: 31%;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 700px) {
+   
+    .left {
+        width: 100%;
+        margin: 5px 0;
+    }
+    
+    .middle {
+        width: 100%;
+        margin: 5px 0;
+
+    }
+
+    .right {
+        width: 100%;
+        margin: 5px 0;
+
+    }
+
+    }
+
+
+
